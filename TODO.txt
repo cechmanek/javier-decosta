@@ -1,7 +1,7 @@
 Use GAN from github.com/NVlabs/stylegan2 to generate images for NFTs
 
 Image sets to create:
-- dragons
+- dragons (by Argus Arestor)
 - monsters in closet
 - super heros
 - super vilians
@@ -9,7 +9,7 @@ Image sets to create:
 - abstract art (by Javier De Costa)
 
 Pull training images from:
-- imgur
-- deviant art
-- shutter stock
-
+-X imgur (bad search functionality. just does word matching)
+-X deviant art (TRASH API)
+-X shutter stock (TRASH API)
+- bing, via requests or curl
