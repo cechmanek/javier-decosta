@@ -1,4 +1,5 @@
 Use GAN from github.com/NVlabs/stylegan2 to generate images for NFTs
+Use DL model from https://github.com/vijishmadhavan/artline to convert pictures into drawings
 
 Image sets to create:
 - dragons (by Argus Arestor)
