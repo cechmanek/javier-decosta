@@ -14,3 +14,23 @@ Pull training images from:
 -X deviant art (TRASH API)
 -X shutter stock (TRASH API)
 - bing, via requests or curl
+
+###########################################################
+tasks
+
+build image getter to pull images from bing
+- use requests package to grab html from bing image search api
+- parse html to find image tags and download images
+- save images in a folder. name folder after search term
+- iterate through bing results pages
+
+build generative model
+- custom output sizes
+- tunable, within reason
+
+build custom data loader
+- data loader that accepts image folder and iterates through files
+- connects to training script
+
+script to train generative model via custom data loader
+- saves generated images under new folder <search_term>_generated
